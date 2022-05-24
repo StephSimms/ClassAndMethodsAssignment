@@ -32,16 +32,28 @@ namespace ClassAndMethodsAssignment
 
             //Part 2
 
-            Class1 sumObj = new Class1();
+            twoIntOperator sumObj = new twoIntOperator();
 
             Console.WriteLine("Please enter a number from 1 - 100.");
             int intOne = Convert.ToInt32(Console.ReadLine());
 
+            try
+            {
+                Console.WriteLine("Please enter another number from 1 - 100. Or you can leave this blank.");
+                int intTwo = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Your two numbers added together equal " + sumObj.twoIntMethod(intOne, intTwo));
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("The only number you entered is " + intOne);
+            }
+            finally
+            {
+                Console.ReadLine();
+            }
             
 
-            Console.WriteLine("Please enter two integers.  One of them is optional.");
-            int userInp = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("")
 
 
         }

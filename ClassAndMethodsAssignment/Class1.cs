@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassAndMethodsAssignment
 {
-    class Class1
-    {
+    //class Class1
+    //{
         //Part 1
         //public int intadd(int x)
         //{
@@ -27,7 +27,12 @@ namespace ClassAndMethodsAssignment
 
         //Part 2
 
+        {
+            class twoIntOperator
+             {
+            public int twoIntMethod(int x, int y = 0)
+            }
+                return x + y;
 
-
-    }
+        }
 }
