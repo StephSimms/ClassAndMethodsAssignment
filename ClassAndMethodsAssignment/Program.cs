@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassAndMethodsAssignment 
+namespace ClassAndMethodsAssignment
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
+    //class Program
+    //{
+    //    static void Main(string[] args)
+        //{
             //Part 1
             //Class1 obj1 = new Class1();
 
@@ -32,30 +32,44 @@ namespace ClassAndMethodsAssignment
 
             //Part 2
 
-            twoIntOperator sumObj = new twoIntOperator();
+            //twoIntOperator sumObj = new twoIntOperator();
 
-            Console.WriteLine("Please enter a number from 1 - 100.");
-            int intOne = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Please enter a number from 1 - 100.");
+            //int intOne = Convert.ToInt32(Console.ReadLine());
 
-            try
-            {
-                Console.WriteLine("Please enter another number from 1 - 100. Or you can leave this blank.");
-                int intTwo = Convert.ToInt32(Console.ReadLine());
+            //try
+            //{
+            //    Console.WriteLine("Please enter another number from 1 - 100. Or you can leave this blank.");
+            //    int intTwo = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Your two numbers added together equal " + sumObj.twoIntMethod(intOne, intTwo));
-            }
-            catch (FormatException)
-            {
-                Console.WriteLine("The only number you entered is " + intOne);
-            }
-            finally
-            {
-                Console.ReadLine();
-            }
+            //    Console.WriteLine("Your two numbers added together equal " + sumObj.twoIntMethod(intOne, intTwo));
+            //}
+            //catch (FormatException)
+            //{
+            //    Console.WriteLine("The only number you entered is " + intOne);
+            //}
+            //finally
+            //{
+            //    Console.ReadLine();
+            //}
+
+
+
+            //Part 3
+
             
+            
+            
+                class Program
+                { 
+                    static void Main(string[]args)
+                    {
+                        intvoid obj = new intvoid();
 
+                        obj.intvoidd(1000, 2000);
+                        Console.ReadLine();
+                    }
+                   
+                }
 
-
-        }
-    }
 }
