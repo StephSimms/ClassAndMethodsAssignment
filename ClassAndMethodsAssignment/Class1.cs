@@ -5,47 +5,60 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ClassAndMethodsAssignment
-    //class Class1
-    //{
-        //Part 1
-        //public int intadd(int x)
-        //{
-        //    return x + 25;
-        //}
+//class Class1
+//{
+//Part 1
+//public int intadd(int x)
+//{
+//    return x + 25;
+//}
 
-        //public int decToInt(decimal x)
-        //{
-        //    return Convert.ToInt32(x);
-        //}
+//public int decToInt(decimal x)
+//{
+//    return Convert.ToInt32(x);
+//}
 
-        //public int stringToInt(string x)
-        //{
-        //    return Convert.ToInt32(x);
-        //}
-
-
-        //Part 2
-
-        //{
-        //    class twoIntOperator
-        //     {
-        //    public int twoIntMethod(int x, int y = 0)
-        //    }
-        //        return x + y;
-
-        //}
+//public int stringToInt(string x)
+//{
+//    return Convert.ToInt32(x);
+//}
 
 
+//Part 2
 
-        //Part3
+//{
+//    class twoIntOperator
+//     {
+//    public int twoIntMethod(int x, int y = 0)
+//    }
+//        return x + y;
 
+//}
+
+
+
+//Part3
+
+//{
+//    class intvoid
+//{
+//    public void intvoidd(int x, int y = 0)
+//    {
+//        int xDouble = x * 2;
+//        Console.WriteLine("The second integer is " + y);
+//    }
+//}
+
+
+// Divide Assignment 
 {
-        class intvoid
+    class Divide
     {
-        public void intvoidd(int x, int y = 0)
+        public void half(int x)
         {
-            int xDouble = x * 2;
-            Console.WriteLine("The second integer is " + y);
+            int half = x / 2;
+            Console.WriteLine("Your number divided in half is " + half + ". ");
         }
+
     }
 }
